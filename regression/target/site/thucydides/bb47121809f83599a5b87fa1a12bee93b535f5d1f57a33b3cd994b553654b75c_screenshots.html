@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link href="css/core.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+	#slider {
+	    position:relative;
+	    width:1000px; /* Change this to your images width */
+	    height:800px; /* Change this to your images height */
+	    background:url(images/loading.gif) no-repeat 50% 50%;
+	}
+	#slider img {
+	    position:absolute;
+	    top:0px;
+	    left:0px;
+	    display:none;
+	}
+	#slider a {
+	    border:0;
+	    display:block;
+	}
+
+    </style>
+
+	<!-- CSS Files -->
+    <link href="slides/js/global.css" rel="stylesheet" type="text/css"/>
+
+    <script src="scripts/jquery.js"></script>
+
+	<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+
+	<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    var screenshotIndex = getUrlVars()["screenshot"];
+
+	$(window).load(function() {
+	    $('#slider').nivoSlider({
+            startSlide:screenshotIndex,
+            effect:'fade',
+			animSpeed:200,
+			directionNavHide:false,
+			manualAdvance:true,
+			keyboardNav:true
+		});
+	});
+	</script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > <a href="bb47121809f83599a5b87fa1a12bee93b535f5d1f57a33b3cd994b553654b75c.html">Verify successful creation of a post </a> > Screenshots </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div class="menu">
+    <ul>
+        <li><a href="index.html" class="current">Overall Test Results</a></li>
+        <li><a href="capabilities.html" >Requirements</a></li>
+        <li><a href="releases.html" >Releases</a></li>
+    </ul>
+    <span class="date-and-time">Report generated 16-05-2014 10:49</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/error.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="error-color">Verify successful creation of a post<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">80.61s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="929044f9e387291d0a78f0b8a679a11cb7965a00fa61ff40c17d4e170a7efa49.html">Recruitment (feature)</a>
+                        <a class="tagLink" href="a5a97dc5b90268a27c50b5b346720e7a6652e280d9c87b5f681a1323466cea33.html">Create recruitment account (story)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+	 <div class="slider-wrapper theme-default">
+		<div id="slider">
+                <img src="screenshot-40633afe24faa4aed2c00ad32869a5878c51e7cf6b63a744e7326276aed8b2461.png" alt="" title="Login to  application: {Admin, TwoShakes}" width="1903"/>
+                <img src="screenshot-0ac093b167f0e79606e4c6b8dbfb023245d2841f352f538fefa463da7eee3d322.png" alt="" title="Navigate to recruitment" width="1903"/>
+                <img src="screenshot-0ac093b167f0e79606e4c6b8dbfb023245d2841f352f538fefa463da7eee3d323.png" alt="" title="Navigate to recruitment" width="1903"/>
+                <img src="screenshot-7ce2cd44b1c850c7cb428c922d8c8859736c48ba4f60a8821e9dc177779f16e95.png" alt="" title="Navigate to  manage  job  ads page" width="1903"/>
+                <img src="screenshot-dd69e18dcdd2f135a9135040b7d1c21eb8b15e961145128ac680e97d8bd2e38e7.png" alt="" title="Goto new job page" width="1903"/>
+                <img src="screenshot-655fe2bf9051b1e9003708359c9dc85987ebfb223457a150ecbe37c89e74ba238.png" alt="" title="Enter job title: {JOB16052014104800}" width="1903"/>
+                <img src="screenshot-655fe2bf9051b1e9003708359c9dc85987ebfb223457a150ecbe37c89e74ba239.png" alt="" title="Enter job title: {JOB16052014104800}" width="1903"/>
+                <img src="screenshot-cc97c98026e9dc459cdec5ddcf97c9f19c439158354f578207f85a67e81d434511.png" alt="" title="Select region for the jobpost: {All Australia}" width="1903"/>
+                <img src="screenshot-cfef69552c3a182ba0b8fe25d123947c23670e5832504318c1d8b240c222b04d13.png" alt="" title="Select area for the jobpost: {Everywhere in Australia}" width="1903"/>
+                <img src="screenshot-7149f30a61e1bc601fd51b61c78ca59b99210be65bc21ee13b16648360704e9a15.png" alt="" title="Select employment type: {Full time}" width="1903"/>
+                <img src="screenshot-79e7e3a5d0c04ccbdf0562de13144f5a328fe73fc7009fa63793602e7237581f17.png" alt="" title="Enter  ad summary: {JOB16052014104800 Post Summary}" width="1903"/>
+                <img src="screenshot-831e93683e95aca4f5fb1eda69ab8dd9045657a3b0672c33886de715e643868919.png" alt="" title="Enter  ad reference: {JOBREF16052014104800}" width="1903"/>
+                <img src="screenshot-645955ee29d4fcf305be23b714edaf19112485f76214d2f333dbea3800c8787621.png" alt="Timed out after 30 seconds. Unable to locate the element: Unable to locate element: {'method':'css selector','selector':'#tinymce&gt;p'}" title="Enter  ad  body content: {JOB16052014104800 1234567890 1234567890 1234567890 1234567890 1234567890}" width="1903"/>
+        </div>
+	  </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter"></div>
+
+</body>
+</html>

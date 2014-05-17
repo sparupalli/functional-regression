@@ -1,0 +1,229 @@
+{
+  "title": "Verify successful creation of a post",
+  "name": "verify_successful_creation_of_a_post",
+  "test-case": {
+    "classname": "au.com.sherpa.regression.tests.recruitment.BasicRecruimentTest"
+  },
+  "result": "ERROR",
+  "steps": "12",
+  "successful": "10",
+  "failures": "0",
+  "errors": "1",
+  "skipped": "1",
+  "ignored": "0",
+  "pending": "0",
+  "duration": "80610",
+  "timestamp": "2014-05-16T10:48:00.381+10:00",
+  "user-story": {
+    "userStoryClass": {
+      "classname": "au.com.sherpa.regression.requirements.Application$Recruitment$CreateRecruitmentAccount"
+    },
+    "qualifiedStoryClassName": "au.com.sherpa.regression.requirements.Application.Recruitment.CreateRecruitmentAccount",
+    "storyName": "Create recruitment account",
+    "path": "au.com.sherpa.regression.requirements.Application.Recruitment",
+    "qualifiedFeatureClassName": "au.com.sherpa.regression.requirements.Application.Recruitment",
+    "featureName": "Recruitment"
+  },
+  "issues": [],
+  "versions": [],
+  "tags": [
+    {
+      "name": "Recruitment",
+      "type": "feature"
+    },
+    {
+      "name": "Create recruitment account",
+      "type": "story"
+    }
+  ],
+  "test-steps": [
+    {
+      "number": 1,
+      "description": "Login to  application: {Admin, TwoShakes}",
+      "duration": 26121,
+      "startTime": 1400201280548,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-40633afe24faa4aed2c00ad32869a5878c51e7cf6b63a744e7326276aed8b2461.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 2,
+      "description": "Navigate to recruitment",
+      "duration": 9186,
+      "startTime": 1400201306670,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-0ac093b167f0e79606e4c6b8dbfb023245d2841f352f538fefa463da7eee3d322.png"
+          }
+        },
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-0ac093b167f0e79606e4c6b8dbfb023245d2841f352f538fefa463da7eee3d323.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 3,
+      "description": "Navigate to  manage  job  ads page",
+      "duration": 4090,
+      "startTime": 1400201315857,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-7ce2cd44b1c850c7cb428c922d8c8859736c48ba4f60a8821e9dc177779f16e95.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 4,
+      "description": "Goto new job page",
+      "duration": 2645,
+      "startTime": 1400201319948,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-dd69e18dcdd2f135a9135040b7d1c21eb8b15e961145128ac680e97d8bd2e38e7.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 5,
+      "description": "Enter job title: {JOB16052014104800}",
+      "duration": 1133,
+      "startTime": 1400201322594,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-655fe2bf9051b1e9003708359c9dc85987ebfb223457a150ecbe37c89e74ba238.png"
+          }
+        },
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-655fe2bf9051b1e9003708359c9dc85987ebfb223457a150ecbe37c89e74ba239.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 6,
+      "description": "Select region for the jobpost: {All Australia}",
+      "duration": 1233,
+      "startTime": 1400201323728,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-cc97c98026e9dc459cdec5ddcf97c9f19c439158354f578207f85a67e81d434511.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 7,
+      "description": "Select area for the jobpost: {Everywhere in Australia}",
+      "duration": 1116,
+      "startTime": 1400201324962,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-cfef69552c3a182ba0b8fe25d123947c23670e5832504318c1d8b240c222b04d13.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 8,
+      "description": "Select employment type: {Full time}",
+      "duration": 1199,
+      "startTime": 1400201326080,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-7149f30a61e1bc601fd51b61c78ca59b99210be65bc21ee13b16648360704e9a15.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 9,
+      "description": "Enter  ad summary: {JOB16052014104800 Post Summary}",
+      "duration": 1147,
+      "startTime": 1400201327280,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-79e7e3a5d0c04ccbdf0562de13144f5a328fe73fc7009fa63793602e7237581f17.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 10,
+      "description": "Enter  ad reference: {JOBREF16052014104800}",
+      "duration": 1199,
+      "startTime": 1400201328428,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-831e93683e95aca4f5fb1eda69ab8dd9045657a3b0672c33886de715e643868919.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 11,
+      "description": "Enter  ad  body content: {JOB16052014104800 1234567890 1234567890 1234567890 1234567890 1234567890}",
+      "duration": 31360,
+      "startTime": 1400201329628,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-645955ee29d4fcf305be23b714edaf19112485f76214d2f333dbea3800c8787621.png"
+          }
+        }
+      ],
+      "cause": {
+        "class": "net.thucydides.core.steps.StepFailureException",
+        "message": "org.openqa.selenium.NoSuchElementException: Timed out after 30 seconds. Unable to locate the element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#tinymce\u003ep\"}\nCommand duration or timeout: 19 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.39.0\u0027, revision: \u002714fa800511cc5d66d426e08b0b2ab926c7ed7398\u0027, time: \u00272013-12-16 13:18:38\u0027\nSystem info: host: \u0027shp-fln-lp18\u0027, ip: \u002710.20.50.75\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.7.0_55\u0027\nSession ID: ed93b890-bac6-4bc8-84dd-2c26c68762a7\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{platform\u003dXP, acceptSslCerts\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, databaseEnabled\u003dtrue, browserName\u003dfirefox, handlesAlerts\u003dtrue, browserConnectionEnabled\u003dtrue, webStorageEnabled\u003dtrue, nativeEvents\u003dfalse, rotatable\u003dfalse, locationContextEnabled\u003dtrue, applicationCacheEnabled\u003dtrue, takesScreenshot\u003dtrue, version\u003d29.0.1}]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.39.0\u0027, revision: \u002714fa800511cc5d66d426e08b0b2ab926c7ed7398\u0027, time: \u00272013-12-16 13:18:38\u0027\nSystem info: host: \u0027shp-fln-lp18\u0027, ip: \u002710.20.50.75\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.7.0_55\u0027\nDriver info: driver.version: unknown"
+      },
+      "result": "ERROR",
+      "children": []
+    },
+    {
+      "number": 12,
+      "description": "Select  application questions template: {RSA Certificate}",
+      "duration": 1,
+      "startTime": 1400201360989,
+      "screenshots": [],
+      "result": "SKIPPED",
+      "children": []
+    }
+  ]
+}

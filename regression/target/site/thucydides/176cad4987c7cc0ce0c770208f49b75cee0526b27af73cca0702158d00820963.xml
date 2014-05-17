@@ -1,0 +1,89 @@
+<acceptance-test-run title="Verify successful creation of recruitment account4" name="verify_successful_creation_of_recruitment_account4" steps="13" successful="13" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="22171" timestamp="2014-05-15T16:18:54.626+10:00">
+  <user-story id="au.com.sherpa.regression.requirements.Application.Recruitment.CreateRecruitmentAccount" name="Create recruitment account" path="au.com.sherpa.regression.requirements.Application.Recruitment">
+    <feature id="au.com.sherpa.regression.requirements.Application.Recruitment" name="Recruitment"/>
+  </user-story>
+  <tags>
+    <tag name="Recruitment" type="feature"/>
+    <tag name="Create recruitment account" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="3407">
+    <screenshots>
+      <screenshot image="screenshot-494c21d4d7a3b4fa651b80d4b38328fedc3366ea20e0f0a5dc2293507a1880ab76.png"/>
+      <screenshot image="screenshot-494c21d4d7a3b4fa651b80d4b38328fedc3366ea20e0f0a5dc2293507a1880ab77.png"/>
+    </screenshots>
+    <description>Login to  application: {Admin, TwoShakes}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1791">
+    <screenshots>
+      <screenshot image="screenshot-84eed542d8a8b4ebeac751a20a977c5f31879c05e2a5c0e8bbf201759fbf1f0279.png"/>
+    </screenshots>
+    <description>Navigate to settings</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="545">
+    <screenshots>
+      <screenshot image="screenshot-1b0f28463292f183b1651ea972a4ae10f8a818a253d144d7b60e4b52face2d8480.png"/>
+    </screenshots>
+    <description>Click  recruitment accounts  link</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2730">
+    <screenshots>
+      <screenshot image="screenshot-d64766b470abb7dc293bb86af5fc802e74cc2f74ed82028b1e66723d901f16a481.png"/>
+      <screenshot image="screenshot-d64766b470abb7dc293bb86af5fc802e74cc2f74ed82028b1e66723d901f16a482.png"/>
+    </screenshots>
+    <description>Click on  add new recruitment account link</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="762">
+    <screenshots>
+      <screenshot image="screenshot-674a2d535d83b6c282decc2f7b709080d4d2492bb24f6c293f4c3c625b5c4d2f84.png"/>
+    </screenshots>
+    <description>Enter account name: {AutoAccount15052014161854}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="902">
+    <screenshots>
+      <screenshot image="screenshot-1953c077aa62e86dc7410f6a3c18090838534c2c2ec15844694e436687df2ac586.png"/>
+    </screenshots>
+    <description>Enter account description: {Auto Account Descriptin15052014161854}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="722">
+    <screenshots>
+      <screenshot image="screenshot-c9f671bf4ee72ec307d215430ff580d34721dd8f471764789489975541fcb44a88.png"/>
+    </screenshots>
+    <description>Click multipost option</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1461">
+    <screenshots>
+      <screenshot image="screenshot-0c026a6547a9bd250c2eca78b26071de572b985705f1d9992bc573cb0196eb3790.png"/>
+    </screenshots>
+    <description>Select internal site option: {2}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1608">
+    <screenshots>
+      <screenshot image="screenshot-f8d25b24a89fd42a91a91f8c72e0e400c07c280608d2f3a866227c8d240c33e192.png"/>
+    </screenshots>
+    <description>Select own site options: {2}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2745">
+    <screenshots>
+      <screenshot image="screenshot-5c466959564bb129e62205a387548849db9f1733b03a1996ab0c0b7d7110bdd894.png"/>
+    </screenshots>
+    <description>Save  create recruitment  account page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2436">
+    <screenshots>
+      <screenshot image="screenshot-1b0f28463292f183b1651ea972a4ae10f8a818a253d144d7b60e4b52face2d8496.png"/>
+    </screenshots>
+    <description>Click  recruitment accounts  link</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2288">
+    <screenshots>
+      <screenshot image="screenshot-b7d1cf86324b83065e5f96dacb93c9f2cb65e1409cff3e150017ca93ee5cb3fc98.png"/>
+    </screenshots>
+    <description>Click  all accounts filter</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="754">
+    <screenshots>
+      <screenshot image="screenshot-26152e6d75783d0e3e520c88a35eb26049b8703a1e9f02c7263bb571d05037da99.png"/>
+    </screenshots>
+    <description>Verify whether a recruitment account is created: {AutoAccount15052014161854}</description>
+  </test-step>
+</acceptance-test-run>

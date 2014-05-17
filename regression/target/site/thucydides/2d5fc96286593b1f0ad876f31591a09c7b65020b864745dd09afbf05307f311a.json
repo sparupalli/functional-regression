@@ -1,0 +1,39 @@
+{
+  "title": "Verify successful creation of recruitment account",
+  "name": "verify_successful_creation_of_recruitment_account",
+  "test-case": {
+    "classname": "au.com.sherpa.regression.tests.recruitment.BasicRecruimentTest"
+  },
+  "result": "IGNORED",
+  "steps": "0",
+  "successful": "0",
+  "failures": "0",
+  "skipped": "0",
+  "ignored": "0",
+  "pending": "0",
+  "duration": "0",
+  "timestamp": "2014-05-16T10:48:00.332+10:00",
+  "user-story": {
+    "userStoryClass": {
+      "classname": "au.com.sherpa.regression.requirements.Application$Recruitment$CreateRecruitmentAccount"
+    },
+    "qualifiedStoryClassName": "au.com.sherpa.regression.requirements.Application.Recruitment.CreateRecruitmentAccount",
+    "storyName": "Create recruitment account",
+    "path": "au.com.sherpa.regression.requirements.Application.Recruitment",
+    "qualifiedFeatureClassName": "au.com.sherpa.regression.requirements.Application.Recruitment",
+    "featureName": "Recruitment"
+  },
+  "issues": [],
+  "versions": [],
+  "tags": [
+    {
+      "name": "Recruitment",
+      "type": "feature"
+    },
+    {
+      "name": "Create recruitment account",
+      "type": "story"
+    }
+  ],
+  "test-steps": []
+}

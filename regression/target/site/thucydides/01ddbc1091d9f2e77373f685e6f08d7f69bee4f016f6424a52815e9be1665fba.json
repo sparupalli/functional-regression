@@ -1,0 +1,245 @@
+{
+  "title": "Verify successful creation of recruitment account3",
+  "name": "verify_successful_creation_of_recruitment_account3",
+  "test-case": {
+    "classname": "au.com.sherpa.regression.tests.recruitment.BasicRecruimentTest"
+  },
+  "result": "SUCCESS",
+  "steps": "13",
+  "successful": "13",
+  "failures": "0",
+  "skipped": "0",
+  "ignored": "0",
+  "pending": "0",
+  "duration": "20507",
+  "timestamp": "2014-05-15T16:18:12.944+10:00",
+  "user-story": {
+    "userStoryClass": {
+      "classname": "au.com.sherpa.regression.requirements.Application$Recruitment$CreateRecruitmentAccount"
+    },
+    "qualifiedStoryClassName": "au.com.sherpa.regression.requirements.Application.Recruitment.CreateRecruitmentAccount",
+    "storyName": "Create recruitment account",
+    "path": "au.com.sherpa.regression.requirements.Application.Recruitment",
+    "qualifiedFeatureClassName": "au.com.sherpa.regression.requirements.Application.Recruitment",
+    "featureName": "Recruitment"
+  },
+  "issues": [],
+  "versions": [],
+  "tags": [
+    {
+      "name": "Recruitment",
+      "type": "feature"
+    },
+    {
+      "name": "Create recruitment account",
+      "type": "story"
+    }
+  ],
+  "test-steps": [
+    {
+      "number": 1,
+      "description": "Login to  application: {Admin, TwoShakes}",
+      "duration": 2762,
+      "startTime": 1400134692953,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-0dc4d8a4508aa77d7a8e1f2fa25c67e8213add91bf47839abf1c57cfc623cd2f26.png"
+          }
+        },
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-0dc4d8a4508aa77d7a8e1f2fa25c67e8213add91bf47839abf1c57cfc623cd2f27.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 2,
+      "description": "Navigate to settings",
+      "duration": 2033,
+      "startTime": 1400134695716,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-6f292053cdd9d8e2242ed50a5c33d8e19e0395e54a856c71d52bc4dc56dd1d4129.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 3,
+      "description": "Click  recruitment accounts  link",
+      "duration": 541,
+      "startTime": 1400134697750,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-b60155c97798cebf00f9af301578b86e96f581c4827eef6b82488c0bdec855b130.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 4,
+      "description": "Click on  add new recruitment account link",
+      "duration": 3107,
+      "startTime": 1400134698292,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-b6f1785d77d0c2684f067399973108dcd7d0b466bef006d29333c2cee640897631.png"
+          }
+        },
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-b6f1785d77d0c2684f067399973108dcd7d0b466bef006d29333c2cee640897632.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 5,
+      "description": "Enter account name: {AutoAccount15052014161812}",
+      "duration": 737,
+      "startTime": 1400134701400,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-8848bef73335e3a926f9981a11d11845a8e676a0c173d41d4b1d8a9f3d4ffaff34.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 6,
+      "description": "Enter account description: {Auto Account Descriptin15052014161812}",
+      "duration": 771,
+      "startTime": 1400134702138,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-b5c59c773fd0bdfaaac2e27f8a73fd8fe0621886a854e77710e0440287f905da36.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 7,
+      "description": "Click multipost option",
+      "duration": 811,
+      "startTime": 1400134702909,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-ca13375960c099386b41f7b978c43a4f12b0140874d00989cc6ac03046737f7738.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 8,
+      "description": "Select internal site option: {2}",
+      "duration": 1400,
+      "startTime": 1400134703720,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-f88901a35e0dbccfb00ca0ac448df77bd8ee297786d7817d1e2563322b25cc5040.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 9,
+      "description": "Select own site options: {2}",
+      "duration": 1361,
+      "startTime": 1400134705120,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-e04dd22ec065e820577c9a94e7b2148496131d42ab8fb3548278a03a2c22923e42.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 10,
+      "description": "Save  create recruitment  account page",
+      "duration": 2356,
+      "startTime": 1400134706482,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-d28e8b33e41321e3e2843bf5b70287aed64aa3775591359a8f37f2f46c23c2ef44.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 11,
+      "description": "Click  recruitment accounts  link",
+      "duration": 1356,
+      "startTime": 1400134708839,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-b60155c97798cebf00f9af301578b86e96f581c4827eef6b82488c0bdec855b146.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 12,
+      "description": "Click  all accounts filter",
+      "duration": 2562,
+      "startTime": 1400134710196,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-009157c6bc6844664e58b6d435ebb98023d4711e937416f6f23c1f46e0a4d36f48.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 13,
+      "description": "Verify whether a recruitment account is created: {AutoAccount15052014161812}",
+      "duration": 691,
+      "startTime": 1400134712759,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-8a571c94622821f4e220f7d69111a1355468eaa3e6ca946ca8f55bfe1b8eaff749.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    }
+  ]
+}

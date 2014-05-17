@@ -1,0 +1,9 @@
+<acceptance-test-run title="Verify successful creation of recruitment account" name="verify_successful_creation_of_recruitment_account" steps="0" successful="0" failures="0" skipped="0" ignored="0" pending="0" result="IGNORED" duration="0" timestamp="2014-05-16T10:48:00.332+10:00">
+  <user-story id="au.com.sherpa.regression.requirements.Application.Recruitment.CreateRecruitmentAccount" name="Create recruitment account" path="au.com.sherpa.regression.requirements.Application.Recruitment">
+    <feature id="au.com.sherpa.regression.requirements.Application.Recruitment" name="Recruitment"/>
+  </user-story>
+  <tags>
+    <tag name="Recruitment" type="feature"/>
+    <tag name="Create recruitment account" type="story"/>
+  </tags>
+</acceptance-test-run>

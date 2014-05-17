@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","Verify if user can login to application","IGNORED","2014-05-15T16:17:31.305+10:00","0.0","0.0"
+"Create recruitment account","Verify successful creation of recruitment account","SUCCESS","2014-05-15T16:17:33.116+10:00","0.0","39.83"
+"Create recruitment account","Verify successful creation of recruitment account2","SUCCESS","2014-05-15T16:18:33.452+10:00","0.0","21.17"
+"Create recruitment account","Verify successful creation of recruitment account3","SUCCESS","2014-05-15T16:18:12.944+10:00","0.0","20.51"
+"Create recruitment account","Verify successful creation of recruitment account4","SUCCESS","2014-05-15T16:18:54.626+10:00","0.0","22.17"
