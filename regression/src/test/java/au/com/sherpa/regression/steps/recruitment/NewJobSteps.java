@@ -2,8 +2,8 @@ package au.com.sherpa.regression.steps.recruitment;
 
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
-import au.com.sherpa.regression.pages.recruitement.WriteYourAd;
 import au.com.sherpa.regression.pages.recruitement.ManageJobAdsPage;
+import au.com.sherpa.regression.pages.recruitement.WriteYourAd;
 
 public class NewJobSteps extends ScenarioSteps{
 
