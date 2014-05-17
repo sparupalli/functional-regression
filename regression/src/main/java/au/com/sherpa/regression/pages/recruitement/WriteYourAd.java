@@ -137,9 +137,8 @@ public class WriteYourAd extends PageObject{
 	
 	public void enterAdBodyContent(String adBodyText){
 		switchToAdBodyFrame();
-//		
-//		(JavascriptExecutor)this.getDriver()
-//		
+
+		this.getJavascriptExecutorFacade();
 //		.executeScript("tinyMCE.activeEditor.setContent('<h1>Native API text</h1> TinyMCE')");
 //		switchBackToMainWindow();
 		this.getDriver().getPageSource();
